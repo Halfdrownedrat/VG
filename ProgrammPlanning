@@ -1,0 +1,47 @@
+# Writing/ Debugging
+- Mostly using SSH connection
+- Might need to do port forwarding if the other volunteer also wants access
+- Hardware setup needs to be done localy
+
+# Water Change
+## Without Constant Sensor reading
+- Everything done periodicly
+- Valve gets power, lets water out
+- Upper valve gets power, lets new solution in (storing the fresh water over the crops allows gravitiy to do the heavy lifting)
+## With Sensor reading
+- Valves get activated if values reach ceirtain constants
+
+# Sensores
+## pH
+
+## Nutrient Concentration
+
+## Temperature
+
+## Moisture
+
+# Envirement Controll
+## Fan
+
+## Heater
+
+
+# Problems that need to be solved
+- Limited amount of pins
+- Extremly limited amounts of pins with 5V
+- Cable managment is horrible
+- Calibrating the sensores
+- Incompatible Libraries eg.
+- Power Drainage 
+- Fire/ Flood Risk
+
+
+# Data Logging
+- Current Idea: Log Data using python --> Outsource task to minischfee or jago
+## Colecting
+- Collect every 1h
+- Fetch Weather Data, time...
+
+## Dataset
+- Archive Data every 24h
+
